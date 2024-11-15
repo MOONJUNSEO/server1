@@ -43,7 +43,7 @@ app.get('/', (req, res) => {
             function initMap() {
                 const map = new google.maps.Map(document.getElementById('map'), {
                     center: { lat: 37.5665, lng: 126.9780 }, // 기본 중심 서울
-                    zoom: 12,
+                    zoom: 7,
                 });
 
                 // 서버에서 위치 데이터 가져오기
