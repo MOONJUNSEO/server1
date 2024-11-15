@@ -38,11 +38,11 @@ app.get('/', (req, res) => {
     </head>
     <body>
         <h1>서버에 저장된 위치</h1>
-        <div id="map" style="width: 100%; height: 500px;"></div>
+        <div id="map" style="width: 100%; height: 1000px;"></div>
         <script>
             function initMap() {
                 const map = new google.maps.Map(document.getElementById('map'), {
-                    center: { lat: 37.5665, lng: 126.9780 }, // 기본 중심 서울
+                    center: { lat: 36.708466, lng: 127.978498 }, // 기본 중심 서울
                     zoom: 7,
                 });
 
